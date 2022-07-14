@@ -1,0 +1,15 @@
+{
+  "name": "remotepi",
+  "version": "1.0.0",
+  "description": "Remote control your raspberrypi with a discord bot",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.4",
+    "discord.js": "^13.8.1"
+  }
+}
