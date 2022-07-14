@@ -4,12 +4,16 @@
   "description": "Remote control your raspberrypi with a discord bot",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
     "@types/node": "^18.0.4",
+    "discord-api-types": "^0.36.2",
     "discord.js": "^13.8.1"
   }
 }
