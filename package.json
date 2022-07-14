@@ -4,10 +4,9 @@
   "description": "Remote control your raspberrypi with a discord bot",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "tsc && node index.js",
-    "deploy": "tsc && node register-commands.js"
+    "start": "node index.js",
+    "deploy": "node register-commands.js"
   },
   "author": "",
   "license": "MIT",

@@ -1,0 +1,6 @@
+{
+    "token": "bot token", 
+    "clientId": "bot client id",
+    "guildId": "guild id (can only run in one guild 4 now)",
+    "owner_id": "bot owner id"
+}
